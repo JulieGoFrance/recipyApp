@@ -11,8 +11,8 @@ struct CategoryView: View {
     var body: some View {
         NavigationView {
             Text("Category")
-                .navigationTitle("title")
-        }
+                .navigationTitle("Categorie")
+        }.padding()
     }
 }
 

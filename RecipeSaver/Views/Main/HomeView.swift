@@ -15,7 +15,7 @@ struct HomeView: View {
             Text("Home")
                 .navigationTitle("Accueil")
           
-        }
+        }.padding()
       
     }
 }
