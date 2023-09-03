@@ -71,6 +71,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE503B7A2AA4BB5E00F1BB60 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE503B7B2AA4BB7C00F1BB60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE503B7C2AA4BB8800F1BB60 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		CEDB647B2AA486E0006F2FF9 = {
 			isa = PBXGroup;
 			children = (
@@ -94,7 +115,9 @@
 		CEDB64862AA486E0006F2FF9 /* RecipeSaver */ = {
 			isa = PBXGroup;
 			children = (
-				CEDB64B12AA48701006F2FF9 /* New Group */,
+				CE503B7C2AA4BB8800F1BB60 /* ViewModels */,
+				CE503B7B2AA4BB7C00F1BB60 /* Models */,
+				CE503B7A2AA4BB5E00F1BB60 /* Views */,
 				CEDB64872AA486E0006F2FF9 /* RecipeSaverApp.swift */,
 				CEDB64892AA486E0006F2FF9 /* ContentView.swift */,
 				CEDB648B2AA486E3006F2FF9 /* Assets.xcassets */,
@@ -126,13 +149,6 @@
 				CEDB64A42AA486E4006F2FF9 /* RecipeSaverUITestsLaunchTests.swift */,
 			);
 			path = RecipeSaverUITests;
-			sourceTree = "<group>";
-		};
-		CEDB64B12AA48701006F2FF9 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
